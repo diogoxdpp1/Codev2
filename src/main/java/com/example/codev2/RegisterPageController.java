@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class SignUpController{
+public class RegisterPageController{
     @FXML
     protected void goBack(ActionEvent event) throws IOException {
         try {
