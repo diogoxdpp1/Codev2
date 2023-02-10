@@ -14,11 +14,11 @@
                 <Font size="28.0" />
             </font>
         </Text>
-      <PasswordField layoutX="209.0" layoutY="219.0" />
-      <TextField layoutX="209.0" layoutY="162.0" />
+      <PasswordField fx:id="pwField" layoutX="209.0" layoutY="219.0" />
+      <TextField fx:id="unField" layoutX="209.0" layoutY="162.0" />
       <Text layoutX="209.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" wrappingWidth="62.552734375" />
-      <Text layoutX="209.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="62.552734375" />
-      <Button layoutX="208.0" layoutY="263.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="fx-border-radius: 12px" text="Sign In" />
+      <Text  layoutX="209.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="62.552734375" />
+      <Button layoutX="208.0" layoutY="263.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="fx-border-radius: 12px" text="Sign In" onAction="#SignInButton"  />
         <Button layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Go Back" onAction="#goBack"/>
     </children>
 </AnchorPane>
